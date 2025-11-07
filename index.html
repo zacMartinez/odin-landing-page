@@ -3,94 +3,91 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
         <title>Landing Page</title>
     </head>
     <body>
-        <header>
-            <h1>Header Logo</h1>
-
-            <nav>
-                <ul>
-                    <li><a>header link one</a></li>
-                    <li><a>header link two</a></li>
-                    <li><a>header link three</a></li>
-                </ul>
-            </nav>
-        </header>
-        
-        <section>
-            <div>
-                <h2>This website is awesome</h2>
-                <p>This website has some subtext that goes under the main title. It's a smaller font and the color is lower contrast.</p>
-                <button>Sign up</button>
-            </div>
-
-            <img src="./images/hero-image.jpg" alt="this is a placeholder for an image">
-        </section>
-
-        <section>
-            <h2>Some random information</h2>
-            <ul>
-                <li>
-                    <figure>
-                        <img src="./images/" alt="placeholder text">
-                        <figcaption>this is some subtext under an illustration or image</figcaption>
-                    </figure>
-                </li>
-                
-                <li>
-                    <figure>
-                        <img src="./images/" alt="placeholder text">
-                        <figcaption>this is some subtext under an illustration or image</figcaption>
-                    </figure>
-                </li>
-                
-                <li>
-                    <figure>
-                        <img src="./images/" alt="placeholder text">
-                        <figcaption>this is some subtext under an illustration or image</figcaption>
-                    </figure>
-                </li>
-                
-                <li>
-                    <figure>
-                        <img src="./images/" alt="placeholder text">
-                        <figcaption>this is some subtext under an illustration or image</figcaption>
-                    </figure>
-                </li>
-                
-                <li>
-                    <figure>
-                        <img src="./images/" alt="placeholder text">
-                        <figcaption>this is some subtext under an illustration or image</figcaption>
-                    </figure>
-                </li>
-            </ul>
-        </section>
-
-        <section>
-            <figure>
-                <blockquote>
-                    <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that is looks nice.</p>
-                </blockquote>
-                <figcaption>
-                    <p>&mdash; Thor, God of Thunder</p>
-                </figcaption>
-            </figure>
-        </section>
-
-        <section>
-            <div>
-                <div>
-                    <h2>Call to action! It's time!</h2>
-                    <p>Sign up for our product by clicking that button right over there!</p>
+        <div class="content">
+            <header>
+                <nav>
+                    <h1 class="logo">Header Logo</h1>
+                    <ul>
+                        <li class="navbar-item"><a class="navbar-link">header link one</a></li>
+                        <li class="navbar-item"><a class="navbar-link">header link two</a></li>
+                        <li class="navbar-item"><a class="navbar-link">header link three</a></li>
+                    </ul>
+                </nav>
+            </header>
+            
+            <section class="hero">
+                <div class="hero-blurb">
+                    <h2>This website is awesome</h2>
+                    <p>This website has some subtext that goes under the main title. It's a smaller font and the color is lower contrast.</p>
+                    <button>Sign up</button>
                 </div>
-                <button>Sign up</button>
-            </div>
-        </section>
-
-        <footer>
-            <p>Copyright &copy; The Odin Project 2025</p>
-        </footer>
+                <img class="hero-image" src="./images/hero-image.jpg" alt="this is a placeholder for an image">
+            </section>
+            <section class="image-row">
+                <h2>Some random information</h2>
+                <ul>
+                    <li>
+                        <figure>
+                            <img src="./images/" alt="placeholder text">
+                            <figcaption>this is some subtext under an illustration or image</figcaption>
+                        </figure>
+                    </li>
+            
+                    <li>
+                        <figure>
+                            <img src="./images/" alt="placeholder text">
+                            <figcaption>this is some subtext under an illustration or image</figcaption>
+                        </figure>
+                    </li>
+            
+                    <li>
+                        <figure>
+                            <img src="./images/" alt="placeholder text">
+                            <figcaption>this is some subtext under an illustration or image</figcaption>
+                        </figure>
+                    </li>
+            
+                    <li>
+                        <figure>
+                            <img src="./images/" alt="placeholder text">
+                            <figcaption>this is some subtext under an illustration or image</figcaption>
+                        </figure>
+                    </li>
+            
+                    <li>
+                        <figure>
+                            <img class="hero-image" src="./images/" alt="placeholder text">
+                            <figcaption>this is some subtext under an illustration or image</figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </section>
+            <section class="blurb">
+                <figure>
+                    <blockquote>
+                        <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that is looks nice.</p>
+                    </blockquote>
+                    <figcaption>
+                        <p>&mdash; Thor, God of Thunder</p>
+                    </figcaption>
+                </figure>
+            </section>
+            <section class="cta">
+                <div>
+                    <div>
+                        <h2>Call to action! It's time!</h2>
+                        <p>Sign up for our product by clicking that button right over there!</p>
+                    </div>
+                    <button>Sign up</button>
+                </div>
+            </section>
+            <footer>
+                <p class="footer-text">Copyright &copy; The Odin Project 2025</p>
+            </footer>
+        </div>
     </body>
 </html>
