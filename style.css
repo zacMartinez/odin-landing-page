@@ -7,7 +7,7 @@
 html {
     font-family: 'Roboto', 'Arial', sans-serif;
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 400;
     color: #1f2937;
 }
 
@@ -104,6 +104,41 @@ p.hero-secondary-text {
     font-size: 18px;
     color: #f9faf8;
 }
+
+/* Information Section */
+
+section.information {
+    text-align: center;
+}
+
+h2.information-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+ul.information-image-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1024px;
+    margin: 0 auto;
+    margin-bottom: 128px;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul.information-image-list li {
+    flex: 1;
+    text-align: center;
+}
+
+img.information-image {
+    width: 100%;
+    border: 4px solid #3882f6;
+    border-radius: 16px;
+}
+
 
 
 
