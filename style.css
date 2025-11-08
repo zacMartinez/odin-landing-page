@@ -14,82 +14,51 @@ body {
     padding: 0;
 }
 
-h1,
-h2,
-p,
-ul,
-figure,
-blockquote,
-button {
-    margin: 0;
-    padding: 0;
+div.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
 }
 
-header,
-footer,
-section.hero {
+/* Header */
+
+header {
     background-color: #1f2937;
 }
 
-section.cta {
-    background-color: #3882f6;
-}
-
-section.quote {
-    background-color: #e5e7eb;
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 16px;
 }
 
 h1.hero-logo {
-    margin: 0;
     font-size: 24px;
     color: #f9faf8;
 }
 
-h2.hero-main-text {
-    margin: 0;
-    font-size: 48px;
-    font-weight: 900;
-    color: #f9faf8;
+ul.navbar-link-list {
+    padding: 0;
+    list-style: none;
 }
 
-h2.information-header {
-    font-size: 36px;
-    font-weight: 900;
-    color: #1f2937;
+li.navbar-item {
+    float: right;
+    margin-left: 16px;
 }
 
-p.hero-secondary-text,
 a.navbar-link {
     font-size: 18px;
     color: #e5e7eb;
 }
 
-ul.navbar-link-list {
-    padding: 0;
-    margin: 0;
-}
 
-li.navbar-item {
-    list-style: none;
-}
 
-p.quote-text {
-    font-size: 36px;
-    font-weight: 300;
-    font-style: italic;
-    color: #1f2937;
-}
 
-button {
-    font-size: inherit;
-    color: #f9faf8;
-    background-color: #3882f6;
-    border: none;
-}
-
-button.cta-button {
-    border: 2px solid #f9faf8;
-}
 
 
 
