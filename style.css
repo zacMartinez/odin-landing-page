@@ -112,6 +112,7 @@ section.information {
 }
 
 h2.information-header {
+    margin: 64px auto;
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
@@ -139,9 +140,36 @@ img.information-image {
     border-radius: 16px;
 }
 
+/* Quote Section */
 
+section.quote {
+    background-color: #e5e7eb;
+}
 
+figure.quote-content {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 128px 0;
+}
 
+blockquote {
+    margin: 0;
+    padding: 0;
+}
 
+figcaption {
+    padding: 0;
+    text-align: right;
+}
 
+p.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
 
+p.quote-citation {
+    font-size: 24px;
+    font-weight: 700;
+}
