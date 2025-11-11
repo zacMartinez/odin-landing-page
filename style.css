@@ -204,3 +204,15 @@ p.cta-secondary-text {
 button.cta-button {
     border: 2px solid #f9faf8;
 }
+
+/* Footer */
+
+footer {
+    background: #1f2937;
+}
+
+p.footer-text {
+    text-align: center;
+    line-height: 64px;
+    color: #f9faf8;
+}
