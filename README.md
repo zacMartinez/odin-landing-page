@@ -1,6 +1,8 @@
 # odin-landing-page
 This repository contains my implementation of the **Landing Page** project from [The Odin Project’s Foundations Course](https://www.theodinproject.com/lessons/foundations-landing-page).
 
+The live page can be seen [HERE](https://zacmartinez.github.io/odin-landing-page/)
+
 ## Photos
 
 Main photo by [fauxels](https://www.pexels.com/photo/man-standing-beside-people-sitting-beside-table-with-laptops-3184395/) from Pexels
